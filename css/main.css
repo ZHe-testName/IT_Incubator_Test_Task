@@ -54,6 +54,14 @@ main{
     animation-iteration-count: infinite;
 }
 
+.logo-block :nth-child(3){
+    clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 100%, 0 80%);
+}
+
+.logo-block :last-child{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 60%, 0 100%);
+}
+
 .text-input{
     min-width: 300px;
     margin-bottom: 15px;
