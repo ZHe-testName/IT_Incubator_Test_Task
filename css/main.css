@@ -1,0 +1,20 @@
+@font-face { 
+    font-family: 'Condensed-Light'; 
+    src: url('../fonts/OpenSansCondensed-Light.ttf');
+    font-weight: normal; 
+    font-style: normal; 
+}
+
+@font-face { 
+    font-family: 'Condensed-Bold'; 
+    src: url('../fonts/OpenSansCondensed-Bold.ttf');
+    font-weight: normal; 
+    font-style: normal; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Condensed-Light';
+    font-size: 22px;
+}
