@@ -12,7 +12,7 @@
     font-style: normal; 
 }
 
-@keyframes towidetonarrow{
+@keyframes to-wide-to-narrow{
     0%{
         width: 530px;
     }
@@ -26,13 +26,13 @@
     }
 }
 
-@keyframes searchbuttonsizing {
+@keyframes search-button-sizing {
     0%{
         transform: scale(1);
     }
 
     50%{
-        transform: scale(0.8);
+        transform: scale(0.9);
     }
 
     100%{
@@ -63,7 +63,7 @@ main{
     justify-content: space-between;
     width: 530px;
     margin-bottom: 30px;
-    animation-name:towidetonarrow;
+    animation-name: to-wide-to-narrow;
     animation-duration: 5s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
@@ -104,7 +104,7 @@ main{
 }
 
 .search-button:hover{
-    animation-name: searchbuttonsizing;
+    animation-name:  search-button-sizing;
     animation-duration: 0.3s;
     animation-iteration-count: 1;
     border: 2px double rgb(1, 107, 1);
